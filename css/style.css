@@ -17,28 +17,6 @@ h6 {
   margin: 0;
 }
 
-/* section {
-  background-color: white;
-  display: flex;
-  justify-content: space-between;
-  padding: 50px;
-} */
-
-/* .left-side {
-  width: 48%;
-}
-
-.right-side {
-  width: 48%;
-}
-
-img {
-  width: 100%;
-}
-
-.experience-area {
-  display: flex;
-} */
 
 /* Navbar Section Start */
 .container {
@@ -1364,7 +1342,7 @@ img {
   padding: 8px 12px;
   border: none;
   border-bottom: 1.5px solid rgb(230, 232, 235);
-  /* border-bottom: 1.5px solid rgb(165, 61, 255); */
+ 
 }
 .contactUsContainer .information form .inputsContainer .budgetSupport {
   display: flex;
@@ -1429,9 +1407,6 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  /* gap: 10px; */
-  /* padding: 0px 20px 0px 20px; */
 }
 .footerContainer .logo .logoIconContainer h3 {
   color: rgb(255, 255, 255);
@@ -1490,45 +1465,9 @@ footer {
 }
 /* Footer Section End */
 
-/* @media only screen and (max-width: 600px) {
-} */
-
-/* @media only screen and (max-width: 320px) {
-  .blog_card_container {
-    grid-template-columns: 1fr;
-  }
-  .portfolio_card_container {
-    grid-template-columns: 1fr;
-  }
-  #hero_about #hero {
-    flex-direction: column;
-  }
-  #hero_about #about {
-    flex-direction: column;
-  }
-  #hero_about #hero .left_side {
-    width: 100%;
-  }
-  #hero_about #hero .right_side {
-    width: 100%;
-  }
-  .work_process_container {
-    grid-template-columns: 1fr;
-  }
-} */
-
-/* 
-   Responsive
-   Tailwind CSS -> Sohoj
-   Blur
-   Z-Index 
-
-*/
 
 @media screen and (max-width: 767px) {
-  /* body{
-    background-color: red;
-  } */
+
   .navbarRightSide {
     display: none;
   }
@@ -1591,18 +1530,12 @@ footer {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* body{
-    background-color: Yellow;
-  } */
   .mobileMenu {
     display: none;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  /* body{
-    background-color: Blue;
-  } */
   .mobileMenu {
     display: none;
   }
